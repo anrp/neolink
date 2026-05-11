@@ -84,6 +84,15 @@ address = "192.168.1.187:9000"
 #
 # print_format = "None"
 
+# MQTT specific camera settings
+# [cameras.mqtt]
+# enable_motion = true
+# enable_doorbell = true
+# enable_light = true
+# enable_battery = true
+# enable_preview = true
+# enable_floodlight = true
+
 
 [[cameras]]
 name = "storage shed"
